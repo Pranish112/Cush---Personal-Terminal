@@ -1,8 +1,6 @@
 /*
  * cush - the customizable shell.
  *
- * Developed by Godmar Back for CS 3214 Summer 2020
- * Virginia Tech.  Augmented to use posix_spawn in Fall 2021.
  */
 #define _GNU_SOURCE    1
 #include <stdio.h>
