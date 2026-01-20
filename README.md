@@ -12,22 +12,27 @@ Key Features:
     - Launches external programs using POSIX APIs
     - Supports both foreground and background execution
     - Tracks running, stopped, and completed jobs
+    
   Job Control
     - Job abstraction using process groups
     - Correct signal delivery to foreground jobs
     - Background job monitoring and status updates
+    
   Built-in Commands
     - Job listing and control (jobs, fg, bg)
     - Signal management (kill, stop)
     - Shell termination (exit)
+    
   Pipelines & Redirection
     - Command pipelines (|, |&)
     - Input/output redirection
     - Append and combined stdout/stderr redirection
+    
   Terminal Management
     - Foreground process group ownership
     - Terminal state preservation and restoration
     - Graceful handling of interactive programs
+    
   Technical Highlights
     - Signal-safe job tracking with SIGCHLD
     - Process group management for correct job semantics
