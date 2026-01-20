@@ -1,6 +1,4 @@
-Student Information
--------------------
-Pranish Somyajula - psomyaju@vt.edu
+Pranish Somyajula 
 
 How to execute the shell
 ------------------------
@@ -70,7 +68,6 @@ finally, I close all the files, run the posix_spawn command, and finish any nece
 
 List of Additional Builtins Implemented
 ---------------------------------------
-(Written by Your Team)
 <Info> - Simple Built-In
 <when you write "info" in the cush, it will tell you the directory you are in and the hostname that is running currently>
 
